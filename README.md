@@ -69,9 +69,19 @@ relies on `cpuid_drv.h` being present, and according to this [Makefile](https://
 
 I don't have any on the machine I'm testing with
 
+#### JSON output
+
+The output right now is minified JSON... I have this webrev for pretty JSON support with nvlists
+
+https://smartos.org/bugview/OS-5074
+
+---
+
 ### `nictagadm`
 
 This command is seriously lacking, as well as `libnictag.h`... lot's of work needed here.
+
+---
 
 ### `libnictag.so`
 
